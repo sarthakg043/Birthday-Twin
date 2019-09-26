@@ -3,9 +3,11 @@
 
 html{
     scroll-behavior: smooth;
+    width: 100%;
 }
 body{
     background: #00293c;
+    width: 100%;
 }
 
 /*Navbar*/
@@ -67,9 +69,6 @@ nav form .btn{
     font-size: 1.2rem;
 }
 
-.navbar-toggler{
-    transform: translateX(-50px);
-}
 /* Jumbotron */
 .jumbotron{
     background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url("imgs/Jumbotron.jpg") center no-repeat;
