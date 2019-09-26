@@ -12,8 +12,8 @@ body{
 #main_navbar{
     text-transform: uppercase;
     letter-spacing: 2px;
-/*    background: #0000009a;
-*/}
+    width: 100%;
+}
 .scrolled{
     background: rgba(0, 0, 0, .7);
 	transition: background .5s;
@@ -21,6 +21,7 @@ body{
 #main_navbar .navbar-brand{
     font-size: 1.5rem;
     font-weight: 700;
+    margin: 0;
 }
 #main_navbar .nav-link {
     color: rgba(255,255,255,1);
