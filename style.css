@@ -94,10 +94,15 @@ nav form .btn{
     margin: auto;
 }
 .jumbotron hr{
-    width: 400px;
+    width: 50%;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,.2); 
     margin: auto;
+}
+@media(max-width: 1200px){
+    .jumbotron hr{
+        width: 80%;
+    }
 }
 
 .btn{
