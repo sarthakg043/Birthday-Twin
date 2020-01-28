@@ -6,7 +6,7 @@ html{
     width: 100%;
 }
 body{
-    background: #00293c;
+    background: #333;
     width: 100%;
 }
 
@@ -141,11 +141,6 @@ button:focus{
     box-shadow: none;
 }
 
-.container{
-    margin: 0;
-    padding: 0;
-}
-
 #content{
     margin: 10px auto;
     justify-content: center;
@@ -153,25 +148,4 @@ button:focus{
 }
 #content div{
     margin: auto; 
-}
-
-.card{
-    height: 25em;
-    margin: 10% auto;
-    padding: 10px;
-    box-shadow: 5px 5px 10px #000a;
-    transform-style: preserve-3d;
-    transform: translate(-10%, 0) perspective(500px) rotateY(30deg) scale(.8,.8);
-    transition: 2s;
-}
-.card:hover{
-    transform: translate(-15%, -20%) perspective(500px) rotateY(0deg) scale(1.2,1.2);
-    box-shadow: 10px 10px 20px #0009;
-    z-index: 1;
-}
-
-.card i{
-    font-size: 10em;
-    margin: 5% 15%;
-    text-shadow: 2px 2px 5px #000a;
 }

@@ -15,8 +15,9 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 		<!-- Custom Stylesheet -->
-		<link rel="stylesheet" type="text/css" href="style.css">
-
+		<link rel="stylesheet" type="text/css" href="Styles/style.css">
+		<link rel="stylesheet" type="text/css" href="Styles/card_hover_styles.css">
+		<link rel="stylesheet" type="text/css" href="Styles/ghost.css">
 
 		<title>Birthday Twin</title>
 	</head>
@@ -48,10 +49,10 @@
 						</div>
 					</li>
 					<li class="nav-item nav-link">Sign  
-						<a href="sign_in.html" target="_blank" class="nav-link d-inline">
+						<a href="sign_in.html" class="nav-link d-inline">
 							<i class="fas fa-user" title="Sign in"></i>
 						</a>/
-						<a href="sign_up.html" target="_blank" class="nav-link d-inline">
+						<a href="sign_up.html" class="nav-link d-inline">
 							<i class="fas fa-user-plus" title="Sign up"></i>
 						</a>
 					</li>
@@ -69,98 +70,78 @@
 				<h1 class="display-4">Find Your Birthday Twin</h1>
 				<p class="lead">The Only Birthday Buddy Finding App.</p>
 				<hr class="my-4">
-				<a href="#modal" class="btn btn-lg" role="button">Get Started</a>
+				<a href="#about" class="btn btn-lg" role="button">Get Started</a>
 			</div>
 		</div>
 
-		<div class="container">
+		<!-- About -->
+		<a name="about"></a>
+		<section>
+			<div class="container row align-items-center">
 
-			<a name="modal"></a>
-
-
-
-			<!-- Button trigger modal -->
-			<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Launch demo modal</button>
-
-			<!-- Modal -->
-			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-
-						<div class="modal-body">...</div>
-
-						<div class="modal-footer">
-							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-							<button type="button" class="btn btn-primary">Save changes</button>
+				<!-- Card 1 -->
+				<div class="creddle col-lg-4 col-sm-12">
+					<div class="face face1">
+						<div class="content">
+							<img src="sketches/find-my-friend.svg">
+							<h3>Find</h3>
 						</div>
 					</div>
-				</div>
-			</div>
-
-			<!-- About -->
-			<div id="content" class="row align-items-center">
-				<div class="col-6 col-md-1">
-					<div class="card" style="width: 18rem;">
-						<i class="fas fa-users text-success card-img-top"></i>
-						<div class="card-body">
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<div class="face face2">
+						<div class="content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<a href="#">Read More</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-6 col-md-1">
-					<div class="card" style="width: 18rem;">
-						<i class="fas fa-venus-mars text-success card-img-top"></i>
-						<div class="card-body">
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				<!-- Card 2 -->
+				<div class="creddle col-lg-4 col-sm-12">
+					<div class="face face1">
+						<div class="content">
+							<img src="sketches/request.svg">
+							<h3>Request</h3>
+						</div>
+					</div>
+					<div class="face face2">
+						<div class="content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<a href="#">Read More</a>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-6 col-md-1">
-					<div class="card" style="width: 18rem;">
-						<i class="fas fa-universal-access text-success card-img-top"></i>
-						<div class="card-body">
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				<!-- Card 3 -->
+				<div class="creddle col-lg-4 col-sm-12">
+					<div class="face face1">
+						<div class="content">
+							<img src="sketches/speech-bubble.svg">
+							<h3>Chat</h3>
 						</div>
 					</div>
-				</div>
-
-				<div class="col-6 col-md-1">
-					<div class="card" style="width: 18rem;">
-						<i class="fas fa-user-shield text-success card-img-top"></i>
-						<div class="card-body">
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-6 col-md-1">
-					<div class="card" style="width: 18rem;">
-						<i class="fas fa-user-check text-success card-img-top rounded"></i>
-						<div class="card-body">
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-6 col-md-1">
-					<div class="card" style="width: 18rem;">
-						<i class="fas fa-cogs text-success card-img-top rounded"></i>
-						<div class="card-body">
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<div class="face face2">
+						<div class="content">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<a href="#">Read More</a>
 						</div>
 					</div>
 				</div>
 
 			</div>
-
+		</section>
+		<div class="ghost">
+			<h2>
+				<span>G</span>
+				<span>o</span>
+				<span>o</span>
+				<span>d&nbsp&nbsp</span>
+				<span>B</span>
+				<span>y</span>
+				<span>e</span>
+			</h2>
 		</div>
 
 		<!-- Optional JavaScript -->
